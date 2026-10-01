@@ -1,0 +1,27 @@
+{
+  "config_version": 2,
+  "nickname": "Player",
+  "server_ip": "127.0.0.1",
+  "server_port": 5000,
+  "update_check": true,
+  "update_url": "https://example.com/neondefender/update.json",
+  "news_enabled": true,
+  "news_url": "https://example.com/neondefender/news.json",
+  "website_url": "https://example.com",
+  "web_servers_enabled": true,
+  "online_master_enabled": true,
+  "online_master_url": "https://YOUR-DOMAIN.example/api/servers",
+  "online_servers": [],
+  "public_server_host": "",
+  "public_server_name": "Neon Defender",
+  "web_services": [
+    {
+      "name": "My Server API",
+      "url": "https://example.com/api/servers",
+      "enabled": true,
+      "timeout": 5,
+      "format": "standard",
+      "api_key_env": "MY_SERVER_API_KEY"
+    }
+  ]
+}

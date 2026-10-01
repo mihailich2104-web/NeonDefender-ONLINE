@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+build/
+dist/
+dist_installer/
+dist_zip/
+*.spec
+.env
+*.key
+config.json
+profile.json*
+logs/
